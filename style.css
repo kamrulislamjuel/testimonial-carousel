@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.author-bg-1 {
+    background-image: url(img.jpeg);
+}
+
+.author-bg-2 {
+    background-image: url(img.jpeg);
+}
+
+.author-bg-3 {
+    background-image: url(img.jpeg);
+}
+
+.testimonial-wrapper {
+    position: relative;
+}
+
+h2.testimonial-title {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-size: 80px;
+    z-index: 2;
+}
+
+h2.testimonial-title span {
+    color: #fff;
+}
+
+.testimonial-text {
+    max-width: 41%;
+    padding-top: 200px;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.testimonial-author i {
+    color: rgb(197, 190, 118);
+    font-size: 24px;
+}
+
+.testimonial-author {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonial-author h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author-bg {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    height: 100%;
+    width: 55%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-button {
+    position: absolute;
+    bottom: 0;
+    right: 50.8%;
+    text-align: center;
+    background-color: #Fff;
+}
+
+.carousel-btn {
+    background: transparent;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    padding: 17px;
+}
+
+.btn-color:hover {
+    background-color: rgb(197, 190, 118);
+    color: #Fff;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+.btn-color {
+    background-color: #eae1e1;
+    margin-left: -5px;
+}
